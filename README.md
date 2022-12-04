@@ -15,10 +15,11 @@ DB에서 직접 password 조회를 할 수 없도록 Sping-Security BCryptPasswo
 ### Token 
   Access Token 및 Refresh Token 만료시 재로그인 
   Access Token의 만료일자를 짧게하여 보안성을 높임  
+  Access Token 만료시 Refresh Token을 통해 재발급
 
 Access Token : Local Storage 저장  
 
-Refresh Token : Http Secure only Cookie 저장
+Refresh Token : Http Secure only Cookie 저장(XSS 공격 방지)
 ___
 
 ### 게시판 및 댓글
