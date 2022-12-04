@@ -1,7 +1,7 @@
 
 # 기술 스택
 
-Spring-Boot, Spring-Security, MyBatis
+## Spring-Boot, Spring-Security, MyBatis
 
 ---
 
