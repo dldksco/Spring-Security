@@ -1,0 +1,368 @@
+[2m2022-11-29 19:55:14.625[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2022-11-29 19:55:14.629[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2022-11-29 19:55:15.899[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.side.domain.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-29 19:55:15.899[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.side.domain.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-29 19:55:15.899[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.side.domain.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-29 19:55:15.899[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memoMapper' and 'com.side.domain.mapper.MemoMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-29 19:55:15.900[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.side.domain.mapper]' package. Please check your configuration.
+[2m2022-11-29 19:55:16.650[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-11-29 19:55:16.759[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 2129 ms
+[2m2022-11-29 19:55:17.995[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5ca97945, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@497c6398, org.springframework.security.web.context.SecurityContextPersistenceFilter@343e32a1, org.springframework.security.web.header.HeaderWriterFilter@28e36384, org.springframework.security.web.authentication.logout.LogoutFilter@583e8c18, com.side.global.filter.JwtFilter@74a2120e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2499efca, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@709f0e19, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5cb9130e, org.springframework.security.web.session.SessionManagementFilter@4efe02e3, org.springframework.security.web.access.ExceptionTranslationFilter@7d784873, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3ea9df3a]
+[2m2022-11-29 19:55:18.017[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.a.web.builders.WebSecurity      [0;39m [2m:[0;39m You are asking Spring Security to ignore Ant [pattern='/v2/api-docs']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2m2022-11-29 19:55:18.018[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure Ant [pattern='/v2/api-docs']
+[2m2022-11-29 19:55:18.019[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.a.web.builders.WebSecurity      [0;39m [2m:[0;39m You are asking Spring Security to ignore Ant [pattern='/swagger-resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2m2022-11-29 19:55:18.020[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure Ant [pattern='/swagger-resources/**']
+[2m2022-11-29 19:55:18.021[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.a.web.builders.WebSecurity      [0;39m [2m:[0;39m You are asking Spring Security to ignore Ant [pattern='/swagger-ui.html']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2m2022-11-29 19:55:18.021[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure Ant [pattern='/swagger-ui.html']
+[2m2022-11-29 19:55:18.021[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.a.web.builders.WebSecurity      [0;39m [2m:[0;39m You are asking Spring Security to ignore Ant [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2m2022-11-29 19:55:18.022[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure Ant [pattern='/webjars/**']
+[2m2022-11-29 19:55:18.022[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.a.web.builders.WebSecurity      [0;39m [2m:[0;39m You are asking Spring Security to ignore Ant [pattern='/swagger/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2m2022-11-29 19:55:18.022[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure Ant [pattern='/swagger/**']
+[2m2022-11-29 19:55:18.192[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-11-29 19:55:18.505[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-11-29 19:57:10.616[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-11-29 19:57:10.617[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-11-29 20:01:56.190[0;39m [31mERROR[0;39m [35m5884[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Exception during pool initialization.
+
+java.sql.SQLSyntaxErrorException: Unknown database 'hyundong'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy87.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy127.writeArticle(Unknown Source)
+	at com.side.domain.service.BoardServiceImpl.writeArticle(BoardServiceImpl.java:26)
+	at com.side.domain.service.BoardServiceImpl$$FastClassBySpringCGLIB$$32cb3788.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.side.domain.service.BoardServiceImpl$$EnhancerBySpringCGLIB$$f2e659ad.writeArticle(<generated>)
+	at com.side.domain.controller.BoardController.writeArticle(BoardController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.side.global.filter.JwtFilter.doFilter(JwtFilter.java:57)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+[2m2022-11-29 20:01:56.216[0;39m [31mERROR[0;39m [35m5884[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mo.a.c.c.C.[.[.[.[dispatcherServlet]     [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/vue] threw exception [Request processing failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'hyundong'
+### The error may exist in file [C:\prjt\BESecurity\vue\target\classes\mappers\board.xml]
+### The error may involve com.side.domain.mapper.BoardMapper.writeArticle
+### The error occurred while executing an update
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLSyntaxErrorException: Unknown database 'hyundong'] with root cause
+
+java.sql.SQLSyntaxErrorException: Unknown database 'hyundong'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy87.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:272)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:62)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy127.writeArticle(Unknown Source)
+	at com.side.domain.service.BoardServiceImpl.writeArticle(BoardServiceImpl.java:26)
+	at com.side.domain.service.BoardServiceImpl$$FastClassBySpringCGLIB$$32cb3788.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.side.domain.service.BoardServiceImpl$$EnhancerBySpringCGLIB$$f2e659ad.writeArticle(<generated>)
+	at com.side.domain.controller.BoardController.writeArticle(BoardController.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at com.side.global.filter.JwtFilter.doFilter(JwtFilter.java:57)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+[2m2022-11-29 20:02:17.116[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[   File Watcher][0;39m [36mrtingClassPathChangeChangedEventListener[0;39m [2m:[0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2m2022-11-29 20:02:18.509[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.side.domain.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-29 20:02:18.510[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.side.domain.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-29 20:02:18.510[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.side.domain.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-29 20:02:18.510[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memoMapper' and 'com.side.domain.mapper.MemoMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-29 20:02:18.510[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.side.domain.mapper]' package. Please check your configuration.
+[2m2022-11-29 20:02:18.700[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-11-29 20:02:18.718[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 890 ms
+[2m2022-11-29 20:02:19.286[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@338c78ca, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f832b55, org.springframework.security.web.context.SecurityContextPersistenceFilter@27df643a, org.springframework.security.web.header.HeaderWriterFilter@10bdc61d, org.springframework.security.web.authentication.logout.LogoutFilter@5af924c8, com.side.global.filter.JwtFilter@2bed9134, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f8d9424, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71fe26e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16d3a70f, org.springframework.security.web.session.SessionManagementFilter@73708450, org.springframework.security.web.access.ExceptionTranslationFilter@4b972225, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@39008076]
+[2m2022-11-29 20:02:19.292[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.a.web.builders.WebSecurity      [0;39m [2m:[0;39m You are asking Spring Security to ignore Ant [pattern='/v2/api-docs']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2m2022-11-29 20:02:19.292[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure Ant [pattern='/v2/api-docs']
+[2m2022-11-29 20:02:19.292[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.a.web.builders.WebSecurity      [0;39m [2m:[0;39m You are asking Spring Security to ignore Ant [pattern='/swagger-resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2m2022-11-29 20:02:19.292[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure Ant [pattern='/swagger-resources/**']
+[2m2022-11-29 20:02:19.292[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.a.web.builders.WebSecurity      [0;39m [2m:[0;39m You are asking Spring Security to ignore Ant [pattern='/swagger-ui.html']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2m2022-11-29 20:02:19.293[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure Ant [pattern='/swagger-ui.html']
+[2m2022-11-29 20:02:19.293[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.a.web.builders.WebSecurity      [0;39m [2m:[0;39m You are asking Spring Security to ignore Ant [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2m2022-11-29 20:02:19.293[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure Ant [pattern='/webjars/**']
+[2m2022-11-29 20:02:19.293[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.a.web.builders.WebSecurity      [0;39m [2m:[0;39m You are asking Spring Security to ignore Ant [pattern='/swagger/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2m2022-11-29 20:02:19.293[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure Ant [pattern='/swagger/**']
+[2m2022-11-29 20:02:19.368[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-11-29 20:02:19.529[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-11-29 20:02:19.679[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-11-29 20:02:20.940[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[   File Watcher][0;39m [36mrtingClassPathChangeChangedEventListener[0;39m [2m:[0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2m2022-11-29 20:02:21.700[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.side.domain.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-29 20:02:21.701[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.side.domain.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-29 20:02:21.701[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.side.domain.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-29 20:02:21.701[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memoMapper' and 'com.side.domain.mapper.MemoMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-29 20:02:21.701[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.side.domain.mapper]' package. Please check your configuration.
+[2m2022-11-29 20:02:21.787[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-11-29 20:02:21.800[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 453 ms
+[2m2022-11-29 20:02:22.116[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@326e0a50, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3020c0e4, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d914c6b, org.springframework.security.web.header.HeaderWriterFilter@5b6682bc, org.springframework.security.web.authentication.logout.LogoutFilter@bd149bb, com.side.global.filter.JwtFilter@4fbf64e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@713bef22, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ea7e0db, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d504ad4, org.springframework.security.web.session.SessionManagementFilter@48614e03, org.springframework.security.web.access.ExceptionTranslationFilter@6446786f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5940164b]
+[2m2022-11-29 20:02:22.125[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.a.web.builders.WebSecurity      [0;39m [2m:[0;39m You are asking Spring Security to ignore Ant [pattern='/v2/api-docs']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2m2022-11-29 20:02:22.125[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure Ant [pattern='/v2/api-docs']
+[2m2022-11-29 20:02:22.125[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.a.web.builders.WebSecurity      [0;39m [2m:[0;39m You are asking Spring Security to ignore Ant [pattern='/swagger-resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2m2022-11-29 20:02:22.125[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure Ant [pattern='/swagger-resources/**']
+[2m2022-11-29 20:02:22.125[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.a.web.builders.WebSecurity      [0;39m [2m:[0;39m You are asking Spring Security to ignore Ant [pattern='/swagger-ui.html']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2m2022-11-29 20:02:22.125[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure Ant [pattern='/swagger-ui.html']
+[2m2022-11-29 20:02:22.126[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.a.web.builders.WebSecurity      [0;39m [2m:[0;39m You are asking Spring Security to ignore Ant [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2m2022-11-29 20:02:22.127[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure Ant [pattern='/webjars/**']
+[2m2022-11-29 20:02:22.127[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.a.web.builders.WebSecurity      [0;39m [2m:[0;39m You are asking Spring Security to ignore Ant [pattern='/swagger/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2m2022-11-29 20:02:22.127[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure Ant [pattern='/swagger/**']
+[2m2022-11-29 20:02:22.195[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-11-29 20:02:22.362[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-11-29 20:02:22.366[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-11-29 20:02:22.370[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 2 ms
+[2m2022-11-29 20:02:22.595[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-11-29 20:05:26.771[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[   File Watcher][0;39m [36mrtingClassPathChangeChangedEventListener[0;39m [2m:[0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2m2022-11-29 20:05:26.905[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[      Thread-17][0;39m [36mo.a.c.loader.WebappClassLoaderBase      [0;39m [2m:[0;39m The web application [vue] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[2m2022-11-29 20:05:27.526[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.side.domain.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-29 20:05:27.526[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.side.domain.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-29 20:05:27.526[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.side.domain.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-29 20:05:27.527[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memoMapper' and 'com.side.domain.mapper.MemoMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-29 20:05:27.527[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.side.domain.mapper]' package. Please check your configuration.
+[2m2022-11-29 20:05:27.623[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-11-29 20:05:27.637[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 455 ms
+[2m2022-11-29 20:05:27.936[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4a161acb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39104dd0, org.springframework.security.web.context.SecurityContextPersistenceFilter@7d4bedfd, org.springframework.security.web.header.HeaderWriterFilter@1a8a5184, org.springframework.security.web.authentication.logout.LogoutFilter@2ef7505b, com.side.global.filter.JwtFilter@2168e70f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d55e61, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4d1b292e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@30f8a89d, org.springframework.security.web.session.SessionManagementFilter@4cb1a34b, org.springframework.security.web.access.ExceptionTranslationFilter@bd81d88, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@229672e5]
+[2m2022-11-29 20:05:27.943[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.a.web.builders.WebSecurity      [0;39m [2m:[0;39m You are asking Spring Security to ignore Ant [pattern='/v2/api-docs']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2m2022-11-29 20:05:27.943[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure Ant [pattern='/v2/api-docs']
+[2m2022-11-29 20:05:27.943[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.a.web.builders.WebSecurity      [0;39m [2m:[0;39m You are asking Spring Security to ignore Ant [pattern='/swagger-resources/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2m2022-11-29 20:05:27.943[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure Ant [pattern='/swagger-resources/**']
+[2m2022-11-29 20:05:27.944[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.a.web.builders.WebSecurity      [0;39m [2m:[0;39m You are asking Spring Security to ignore Ant [pattern='/swagger-ui.html']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2m2022-11-29 20:05:27.944[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure Ant [pattern='/swagger-ui.html']
+[2m2022-11-29 20:05:27.944[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.a.web.builders.WebSecurity      [0;39m [2m:[0;39m You are asking Spring Security to ignore Ant [pattern='/webjars/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2m2022-11-29 20:05:27.944[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure Ant [pattern='/webjars/**']
+[2m2022-11-29 20:05:27.944[0;39m [33m WARN[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.c.a.web.builders.WebSecurity      [0;39m [2m:[0;39m You are asking Spring Security to ignore Ant [pattern='/swagger/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+[2m2022-11-29 20:05:27.944[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure Ant [pattern='/swagger/**']
+[2m2022-11-29 20:05:28.005[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2022-11-29 20:05:28.122[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-11-29 20:05:28.246[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2022-11-29 20:11:54.171[0;39m [32m INFO[0;39m [35m5884[0;39m [2m---[0;39m [2m[   File Watcher][0;39m [36mrtingClassPathChangeChangedEventListener[0;39m [2m:[0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)

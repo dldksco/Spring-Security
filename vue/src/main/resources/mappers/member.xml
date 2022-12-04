@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.side.domain.mapper.MemberMapper">
+
+	<select id="login" parameterType="memberDto"
+		resultType="memberDto">
+		select user_name, user_id, email
+		from member
+		where user_id
+		=
+		#{userId} and user_pwd = #{userPwd}
+	</select>
+
+	<select id="getMember" parameterType="string"
+		resultType="memberDto">
+		<![CDATA[
+		select user_id, user_pwd, user_name, email
+		from member
+		where user_id =#{userId}
+		]]>
+	</select>
+
+	<select id="memberInfo" parameterType="string"
+		resultType="memberDto">
+		select user_name, user_id, email, join_date,role
+		from member
+		where user_id = #{userId}
+	</select>
+
+
+	<select id="idCheck" parameterType="String" resultType="int">
+		select
+		count(user_id)
+		from member
+		where user_id = #{userId}
+	</select>
+
+	<insert id="joinMember" parameterType="memberDto">
+		insert into member
+		(user_name, user_id, user_pwd, email, join_date)
+		values (#{userName},
+		#{userId}, #{userPwd}, #{email},
+		now())
+	</insert>
+
+	<update id="updateMember" parameterType="memberDto">
+		update member
+		<trim prefix="set" suffixOverrides=",">
+			<if test="userpwd != null">user_pwd = #{userPwd},</if>
+			<if test="email != null">email = #{email},</if>
+			<if test="username != null">user_name = #{userName},</if>
+		</trim>
+		where user_id = #{userId}
+	</update>
+	
+	<delete id="deleteMember" parameterType="String">
+		delete from member
+		where
+		user_id = #{userId}
+	</delete>
+
+
+</mapper>

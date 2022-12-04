@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace="com.side.domain.mapper.MemoMapper">
+	<insert id="writeMemo" parameterType="memoDto">
+		insert into memo (user_id, content, register_time,article_no)
+		values (#{userId}, #{content}, now(),#{articleNo})
+	</insert>
+	
+	<select id="listMemo" parameterType="map"
+    resultType="memoDto">
+    select memo_no, user_id, content,article_no
+    from memo where article_no= #{articleNo}
+    order by article_no desc
+    limit #{start}, #{spp}
+</select>
+	 
+	<select id="getTotalCount" parameterType="map" resultType="int">
+		select count(memo_no)
+		from memo
+	</select>
+		
+	
+	<update id="modifyMemo" parameterType="memoDto">
+		update memo
+		set content = #{content}, register_time = now()
+		where memo_no = #{memoNo}
+	</update>
+	
+	
+	<delete id="deleteMemo" parameterType="int">
+		delete from memo
+		where memo_no = #{memoNo}
+	</delete>
+
+</mapper>
+
