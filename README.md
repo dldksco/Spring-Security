@@ -32,6 +32,7 @@ ___
 <img width="80%" src="https://user-images.githubusercontent.com/117557800/205476672-1052166f-63fc-497a-ba11-e1346e0520e4.PNG"/>  
 <img width="80%" src="https://user-images.githubusercontent.com/117557800/205476451-f62baccf-03b6-4ebc-8dc0-bf0fdcd8c8bf.PNG"/>
 <img width="80%" src="https://user-images.githubusercontent.com/117557800/205476453-4bb09830-77e8-4d49-9a27-1d7ccdf15514.png"/>  
+
 ### 게시판 CRUD 및 댓글 CRD
 <img width="80%" src="https://user-images.githubusercontent.com/117557800/205476454-be1eb971-fffb-4ab0-af22-b0396b27caa8.PNG"/>
 <img width="80%" src="https://user-images.githubusercontent.com/117557800/205476457-b834e936-3a74-4af6-9eb2-5b7fe17bb507.PNG"/>
