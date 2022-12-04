@@ -21,7 +21,7 @@ Access Token : Local Storage 저장
 
 Refresh Token : Http Secure only Cookie 저장(XSS 공격 방지)  
   
-### 
+### 로그인
 <img width="80%" src="https://user-images.githubusercontent.com/117557800/205476448-da8b1128-8e1c-49ca-b7af-de02918b7d1e.PNG"/>
 ___
 
