@@ -20,6 +20,8 @@ DB에서 직접 password 조회를 할 수 없도록 Sping-Security BCryptPasswo
 Access Token : Local Storage 저장  
 
 Refresh Token : Http Secure only Cookie 저장(XSS 공격 방지)  
+### 게시판 및 댓글
+게시판 CRUD 구현, 댓글 CRD 구현
   
 ### 로그인
 <img width="80%" src="https://user-images.githubusercontent.com/117557800/205476448-da8b1128-8e1c-49ca-b7af-de02918b7d1e.PNG"/>  
@@ -29,7 +31,6 @@ Refresh Token : Http Secure only Cookie 저장(XSS 공격 방지)
 
 ___
 
-### 게시판 및 댓글
-게시판 CRUD 구현, 댓글 CRD 구현
+
 
 ___
